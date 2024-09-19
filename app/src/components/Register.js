@@ -11,7 +11,7 @@ function Register() {
     const handleRegister = async (e) => {
         e.preventDefault();
         await axios.post('http://localhost:8000/api/register/', { username, email, password });
-        history.push('/login');
+        history('/login');
     };
 
     return (

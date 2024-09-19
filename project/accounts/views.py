@@ -4,7 +4,7 @@ from rest_framework.authtoken.models import Token
 from rest_framework.response import Response
 from django.contrib.auth import get_user_model
 from .serializers import UserSerializer
-
+# comment by hrishi
 User = get_user_model()
 
 
